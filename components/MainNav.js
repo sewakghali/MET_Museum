@@ -79,12 +79,10 @@ export default function MainNav() {
                            <Link href="/history" passHref legacyBehavior >
                               <NavDropdown.Item active={router.pathname === "/history"} onClick={() => setExpanded(false)}>Search History</NavDropdown.Item>
                            </Link>
-                           <Link>
                               <NavDropdown.Item onClick={() => {
                                  setExpanded(false);
                                  logout();
                               }}>Logout</NavDropdown.Item>
-                           </Link>
                         </NavDropdown>
                      </Nav>}
                   {!token &&
