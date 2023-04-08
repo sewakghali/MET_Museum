@@ -1,0 +1,34 @@
+{
+    "editor.detectIndentation": false,
+    "[sass]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 3
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 3
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 3
+    },
+    "[typescript]": {
+        "editor.tabSize": 3
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 3
+    },
+    "[python]": {
+        "editor.tabSize": 3
+    },
+    "[cpp]": {
+        "editor.tabSize": 3
+    },
+    "[c]": {
+        "editor.tabSize": 3
+    },
+
+}
