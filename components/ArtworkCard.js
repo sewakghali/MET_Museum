@@ -20,7 +20,7 @@ export default function ArtworkCard(props) {
   } else {
     return (
       <>
-        <Card className="fluid">
+        <Card className="fluid h-100">
           {data?.primaryImageSmall ? (
             <Card.Img variant="top" src={data?.primaryImageSmall} />
           ) : (
