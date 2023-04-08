@@ -26,7 +26,6 @@ export default function History() {
       setSearchHistory(await removeFromHistory(searchHistory[index]));
    }
 
-
    return (
       <>
          {parsedHistory.length > 0 ?
