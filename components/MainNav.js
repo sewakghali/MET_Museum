@@ -79,15 +79,15 @@ export default function MainNav() {
                            <Link href="/history" passHref legacyBehavior >
                               <NavDropdown.Item active={router.pathname === "/history"} onClick={() => setExpanded(false)}>Search History</NavDropdown.Item>
                            </Link>
-                              <NavDropdown.Item onClick={() => {
-                                 setExpanded(false);
-                                 logout();
-                              }}>Logout</NavDropdown.Item>
+                           <NavDropdown.Item onClick={() => {
+                              setExpanded(false);
+                              logout();
+                           }}>Logout</NavDropdown.Item>
                         </NavDropdown>
                      </Nav>}
                   {!token &&
                      <Nav className="ml-auto">
-                        <Link href="/register" passHref legacyBehavior><Nav.Link  active={router.pathname === "/register"} onClick={() => setExpanded(false)}>Register</Nav.Link></Link>
+                        <Link href="/register" passHref legacyBehavior><Nav.Link active={router.pathname === "/register"} onClick={() => setExpanded(false)}>Register</Nav.Link></Link>
                         <Link href="/login" passHref legacyBehavior><Nav.Link active={router.pathname === "/login"} onClick={() => setExpanded(false)}>Login</Nav.Link></Link>
                      </Nav>
                   }

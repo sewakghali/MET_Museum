@@ -14,8 +14,8 @@ export default function Register(props) {
    async function handleSubmit(e) {
       e.preventDefault();
       try {
-         if(password == '') throw new Error('No password');
-         if(password.length < 6) throw new Error('Password must be atleast 6 characters.');
+         if (password == '') throw new Error('No password');
+         if (password.length < 6) throw new Error('Password must be atleast 6 characters.');
          if (user.includes('\\')) throw new Error('User Name cannot contain "\\"');
 
          await registerUser(user, password, password2);
