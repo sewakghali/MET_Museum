@@ -9,7 +9,7 @@ const PUBLIC_PATHS = ['/login', '/', '/_error', '/register'];
 
 export default function RouteGuard(props) {
    const router = useRouter();
-   const [serachHistory, setSearchHistory] = useAtom(searchHistoryAtom);
+   const [searchHistory, setSearchHistory] = useAtom(searchHistoryAtom);
    const [favourites, setFavouritesList] = useAtom(favouritesAtom);
    async function updateAtoms() {
 
